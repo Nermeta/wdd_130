@@ -1,0 +1,44 @@
+:root{
+    
+--headline-color-on-color: #90E0EF; /* headlines on a colored background */ 
+--paragraph-color-on-color: #00B4D8; /* paragraph text on a colored background */ 
+--paragraph-background-color: #03045E  ;
+--nav-link-color: #396E94;
+--nav-background-color: #03045E ;
+--nav-hover-link-color: #90E0EF;
+--nav-hover-background-color: #396E94;
+}
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1{
+    text-align: center; 
+}
+
+
+#hero-msg h4{
+    text-align: center; 
+}
+
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+body {
+
+}
