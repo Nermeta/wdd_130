@@ -1,13 +1,4 @@
-:root{
-    
---headline-color-on-color: #90E0EF; /* headlines on a colored background */ 
---paragraph-color-on-color: #00B4D8; /* paragraph text on a colored background */ 
---paragraph-background-color: #03045E  ;
---nav-link-color: #396E94;
---nav-background-color: #03045E ;
---nav-hover-link-color: #90E0EF;
---nav-hover-background-color: #396E94;
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
 #content {
@@ -17,6 +8,9 @@
 
 nav a {
     text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -37,8 +31,103 @@ main section {
 
 #background{
     height: 725px;
+    background-color: white;
 }
 
 body {
+    background-color: #fcfbfb;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#0077B6 ;
+    
+}
 
+nav a:hover {
+  background-color: #00B4D8;  
+}
+.book, .join {
+    background-color: #0077B6;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #00B4D8;
+}
+
+h1, h3, h4, p {
+    color: #03045E ;
+    font-family: "Work Sans";
+}
+h2 {
+    margin: 0;
+    color: #03045E ;
+    font-family: "Work Sans";
+}
+
+.logo {
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+.msg p {
+    font-size: .8em;
+    background-color: #90E0EF;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+.msg{
+    padding: 35px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #00B4D8;
+}
+main section img {
+    box-sizing: border-box;
 }
